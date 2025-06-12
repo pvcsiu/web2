@@ -1,0 +1,123 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body: font-family and font-size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header: background-color */
+header {
+    background-color: #1a237e;
+    padding: 10px;
+}
+
+/* Nav: background-color */
+nav {
+    margin-bottom: 20px;
+    background-color: #0288d1;
+    padding: 10px;
+    display: inline-block;
+    width: 80%;
+}
+
+/* Main: background-color and font-size */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Footer: background-color */
+footer {
+    background-color: #1a237e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Li: comment out existing styling */
+/* li {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px;
+} */
+
+/* H1: text-align, font-family, color */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #ffffff;
+}
+
+/* H2: color from index.html */
+h2 {
+    color: #1a237e;
+}
+
+/* P: line-height */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Image styling from index.html */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Unordered list styling from index.html */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Link styling from index.html */
+a {
+    color: #0288d1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Descendant selector for images in nav */
+nav img {
+    width: 10%;
+}
+
+/* Grid class styling */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Descendant selector for images in grid */
+.grid img {
+    width: 100%;
+}
+
+/* Flex class styling */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
