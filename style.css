@@ -21,13 +21,25 @@ header {
     padding: 10px;
 }
 
-/* Nav: background-color */
+/* Nav: background-color and improved styling */
 nav {
     margin-bottom: 20px;
     background-color: #000000;
     padding: 10px;
-    display: inline-block;
-    width: 80%;
+    display: block; /* Changed to block for better control */
+    width: 100%; /* Full width for visibility */
+}
+
+/* Unordered list styling for navigation */
+nav ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+
+/* List items styling */
+li {
+    display: inline-block; /* Display links horizontally */
+    margin-right: 15px; /* Space between links */
 }
 
 /* Main: background-color and font-size */
@@ -47,13 +59,6 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
-
-/* Li: comment out existing styling */
-/* li {
-    display: inline-block;
-    width: 120px;
-    margin-right: 10px;
-} */
 
 /* H1: text-align, font-family, color */
 h1 {
